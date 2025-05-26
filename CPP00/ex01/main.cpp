@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabenman <yabenman@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yabenman <yabenman@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/25 03:58:54 by yabenman          #+#    #+#             */
-/*   Updated: 2025/05/26 13:23:32 by yabenman         ###   ########.fr       */
+/*   Updated: 2025/05/26 18:39:57 by yabenman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,10 @@ int main(void)
         if (command == "ADD")
         {
             contact.add_contact();
+        }
+        else if (command == "SEARCH")
+        {
+            contact.search_contact();
         }
         else if (command == "EXIT")
         {
