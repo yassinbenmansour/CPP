@@ -5,26 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: yabenman <yabenman@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/01 00:50:28 by yabenman          #+#    #+#             */
-/*   Updated: 2025/06/01 00:52:42 by yabenman         ###   ########.fr       */
+/*   Created: 2025/06/01 19:07:19 by yabenman          #+#    #+#             */
+/*   Updated: 2025/06/01 20:28:56 by yabenman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ZOMBIE_HPP
 # define ZOMBIE_HPP
 
-# include <string>
-# include <iostream>
+#include <iostream>
+#include <string>
 
 class Zombie
 {
-  private:
-	std::string _name;
-
+	private:
+		std::string _name;
 	public:
 		Zombie(std::string name);
 		~Zombie();
-
+		
 		void announce();
 };
 

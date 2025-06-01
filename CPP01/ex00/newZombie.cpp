@@ -6,7 +6,13 @@
 /*   By: yabenman <yabenman@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 00:50:22 by yabenman          #+#    #+#             */
-/*   Updated: 2025/06/01 00:50:23 by yabenman         ###   ########.fr       */
+/*   Updated: 2025/06/01 20:19:43 by yabenman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "Zombie.hpp"
+
+Zombie* newZombie( std::string name )
+{
+    return new Zombie(name);
+}

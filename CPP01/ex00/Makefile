@@ -6,7 +6,7 @@
 #    By: yabenman <yabenman@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/25 02:59:33 by yabenman          #+#    #+#              #
-#    Updated: 2025/06/01 00:50:17 by yabenman         ###   ########.fr        #
+#    Updated: 2025/06/01 19:05:37 by yabenman         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ NAME	=	Zombie
 
 SRC	=	main.cpp \
 		newZombie.cpp \
-		randomChum.cpp \
+		randomChump.cpp \
 		Zombie.cpp \
 		
 OBJ = $(SRC:.cpp=.o)
