@@ -6,7 +6,7 @@
 #    By: yabenman <yabenman@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/25 02:59:33 by yabenman          #+#    #+#              #
-#    Updated: 2025/06/01 00:55:02 by yabenman         ###   ########.fr        #
+#    Updated: 2025/06/02 19:40:50 by yabenman         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,9 +17,11 @@ CYAN      = \033[0;36m
 PURPLE    = \033[0;35m
 
 
-NAME = 
+NAME	=	Zombie
 
-SRC = 
+SRC	=	main.cpp \
+		Zombie.cpp \
+		zombieHorde.cpp \
 
 OBJ = $(SRC:.cpp=.o)
 
