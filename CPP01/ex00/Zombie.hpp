@@ -6,7 +6,7 @@
 /*   By: yabenman <yabenman@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 19:07:19 by yabenman          #+#    #+#             */
-/*   Updated: 2025/06/01 20:28:56 by yabenman         ###   ########.fr       */
+/*   Updated: 2025/06/02 20:15:13 by yabenman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define ZOMBIE_HPP
 
 #include <iostream>
-#include <string>
+# include <string>
 
 class Zombie
 {
